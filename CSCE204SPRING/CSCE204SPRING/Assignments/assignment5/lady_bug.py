@@ -1,0 +1,380 @@
+#Author Kelvin Keller 
+import turtle
+import random 
+turtle.setup(1000,1000)
+turtle.bgcolor("white")
+pen = turtle.Turtle()
+
+head = 50
+eyeOne = 3
+eyeTwo = 3
+Back = head * 2
+
+#Asking the user lady bug size 
+size = int(turtle.numinput("Lady Bug", "Size (1-10)", 1, 1, 10))
+
+if size == 10:
+    #head
+    pen.sety(-head)
+    pen.color("black")
+    pen.fillcolor("black")
+    pen.begin_fill()
+    pen.circle(head)
+    pen.end_fill()
+    #back
+    pen.up()
+    pen.setx(50)
+    pen.color("red")
+    pen.fillcolor("red")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(Back)
+    pen.end_fill()
+
+    #eyes
+    pen.up()
+    pen.setpos(-4, -head)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+
+    pen.up()
+    pen.setpos(-20, -40)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+elif size == 9:
+    #head
+    pen.sety(-head)
+    pen.color("black")
+    pen.fillcolor("black")
+    pen.begin_fill()
+    pen.circle(head)
+    pen.end_fill()
+    #back
+    pen.up()
+    pen.setx(50)
+    pen.color("red")
+    pen.fillcolor("red")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(Back)
+    pen.end_fill()
+    
+    #eyes
+    pen.up()
+    pen.setpos(-4, -head)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+
+    pen.up()
+    pen.setpos(-20, -40)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+elif size == 8:
+    #head
+    pen.sety(-head)
+    pen.color("black")
+    pen.fillcolor("black")
+    pen.begin_fill()
+    pen.circle(head)
+    pen.end_fill()
+    #back
+    pen.up()
+    pen.setx(50)
+    pen.color("red")
+    pen.fillcolor("red")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(Back)
+    pen.end_fill()
+    
+    #eyes
+    pen.up()
+    pen.setpos(-4, -head)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+
+    pen.up()
+    pen.setpos(-20, -40)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+elif size == 7:
+    #head
+    pen.sety(-head)
+    pen.color("black")
+    pen.fillcolor("black")
+    pen.begin_fill()
+    pen.circle(head)
+    pen.end_fill()
+    #back
+    pen.up()
+    pen.setx(50)
+    pen.color("red")
+    pen.fillcolor("red")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(Back)
+    pen.end_fill()
+    
+    #eyes
+    pen.up()
+    pen.setpos(-4, -head)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+
+    pen.up()
+    pen.setpos(-20, -40)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+elif size == 6:
+    #head
+    pen.sety(-head)
+    pen.color("black")
+    pen.fillcolor("black")
+    pen.begin_fill()
+    pen.circle(head)
+    pen.end_fill()
+    #back
+    pen.up()
+    pen.setx(50)
+    pen.color("red")
+    pen.fillcolor("red")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(Back)
+    pen.end_fill()
+    
+    #eyes
+    pen.up()
+    pen.setpos(-4, -head)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+
+    pen.up()
+    pen.setpos(-20, -40)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+elif size == 5:
+    #head
+    pen.sety(-head)
+    pen.color("black")
+    pen.fillcolor("black")
+    pen.begin_fill()
+    pen.circle(head)
+    pen.end_fill()
+    #back
+    pen.up()
+    pen.setx(50)
+    pen.color("red")
+    pen.fillcolor("red")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(Back)
+    pen.end_fill()
+    
+    #eyes
+    pen.up()
+    pen.setpos(-4, -head)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+
+    pen.up()
+    pen.setpos(-20, -40)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+elif size == 4:
+    #head
+    pen.sety(-head)
+    pen.color("black")
+    pen.fillcolor("black")
+    pen.begin_fill()
+    pen.circle(head)
+    pen.end_fill()
+    #back
+    pen.up()
+    pen.setx(50)
+    pen.color("red")
+    pen.fillcolor("red")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(Back)
+    pen.end_fill()
+    
+    #eyes
+    pen.up()
+    pen.setpos(-4, -head)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+
+    pen.up()
+    pen.setpos(-20, -40)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+elif size == 3:
+    #head
+    pen.sety(-head)
+    pen.color("black")
+    pen.fillcolor("black")
+    pen.begin_fill()
+    pen.circle(head)
+    pen.end_fill()
+    #back
+    pen.up()
+    pen.setx(50)
+    pen.color("red")
+    pen.fillcolor("red")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(Back)
+    pen.end_fill()
+    
+    #eyes
+    pen.up()
+    pen.setpos(-4, -head)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+
+    pen.up()
+    pen.setpos(-20, -40)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+elif size == 2:
+    #head
+    pen.sety(-head)
+    pen.color("black")
+    pen.fillcolor("black")
+    pen.begin_fill()
+    pen.circle(head)
+    pen.end_fill()
+    #back
+    pen.up()
+    pen.setx(50)
+    pen.color("red")
+    pen.fillcolor("red")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(Back)
+    pen.end_fill()
+    
+    #eyes
+    pen.up()
+    pen.setpos(-4, -head)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+
+    pen.up()
+    pen.setpos(-20, -40)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+elif size == 1:
+    #head
+    pen.sety(-head)
+    pen.color("black")
+    pen.fillcolor("black")
+    pen.begin_fill()
+    pen.circle(head)
+    pen.end_fill()
+    #back
+    pen.up()
+    pen.setx(50)
+    pen.color("red")
+    pen.fillcolor("red")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(Back)
+    pen.end_fill()
+    
+    #eyes
+    pen.up()
+    pen.setpos(-4, -head)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+
+    pen.up()
+    pen.setpos(-20, -40)
+    pen.color("white")
+    pen.fillcolor("white")
+    pen.begin_fill()
+    pen.down()
+    pen.circle(eyeOne)
+    pen.end_fill()
+    
+
+    
+
+turtle.done()
