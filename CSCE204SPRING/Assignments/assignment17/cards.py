@@ -7,7 +7,7 @@ def deal():
     card = ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"]
     #get a random card
     randomPull = random.randint(0,12)
-    for i in len(card):
+    for i in card:
         if randomPull == 0:
             print("Ace")
             return 1
@@ -48,7 +48,36 @@ def deal():
             print("King")
             return 10
 
-deal()
+def user():
+    #call deal to display the card the user dealt
+    print(f"Your card value is : {deal()}")
+
+def computer():
+    #call deal to display the card the computer dealt
+    print(f"Computer card value is: {deal()}")
+
+while True:
+    print("Welcome to our Awesomne Card Game!")
+    user()
+    computer()
+    if user > computer:
+        print("""You win!
+                Your Score: 1
+                Computer Score: 0""")
+        game = input("Would you like to play again (Y)es or (N)o?").strip().lower()
+    elif user < computer:
+        print("""Computer wins!
+                Your Score: 0
+                Computer Score: 1""")
+        game = input("Would you like to play again (Y)es or (N)o?").strip().lower()
+    else:
+        print("Tie!")
+        game = input("Would you like to play again (Y)es or (N)o?").strip().lower()
     
+    
+
+
+
+
 
         
