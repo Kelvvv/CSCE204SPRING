@@ -1,0 +1,10 @@
+Jenny: true
+Bradley: false
+Tim: true
+Kim: true
+Mason: true
+Alex: false
+Cindy: true
+Charolette: true
+Brent: false
+Tyler: true
