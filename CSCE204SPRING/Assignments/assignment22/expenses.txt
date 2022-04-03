@@ -1,0 +1,5 @@
+Cell Phone: $127.62
+Rent: $650.45
+Car:  $230.34
+Food: $300.0
+Total:
